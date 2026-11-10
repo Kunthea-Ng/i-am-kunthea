@@ -8,12 +8,6 @@
 </head>
 <body>
     <?php
-        /*
-        TASK:
-        Exercise 6 - Employee salary table
-        Create 5 employees (name, position, salary). Show a table, then find the highest paid employee
-        and the total salary of the company.
-        */
         $employees = [
             ["name" => "Rithy",  "position" => "Manager",   "salary" => 1200],
             ["name" => "Maly",   "position" => "Designer",  "salary" => 800],

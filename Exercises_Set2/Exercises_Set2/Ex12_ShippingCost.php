@@ -7,12 +7,6 @@
 </head>
 <body>
     <?php
-        /*
-        TASK:
-        Exercise 12 - Default parameter: shipping cost
-        Create a function shippingCost($weight, $express = false). Normal shipping costs $2 per kg,
-        express costs $4 per kg. Call it with and without the second argument.
-        */
         function shippingCost($weight, $express = false) {
             $rate = $express ? 4 : 2;
             return $weight * $rate;

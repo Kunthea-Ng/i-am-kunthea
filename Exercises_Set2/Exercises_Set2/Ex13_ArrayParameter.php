@@ -7,12 +7,6 @@
 </head>
 <body>
     <?php
-        /*
-        TASK:
-        Exercise 13 - Function with array parameter
-        Create a function stats($numbers) that returns an associative array with count, sum, average, min and max.
-        Print the result with foreach.
-        */
         function stats($numbers) {
             return [
                 "count"   => count($numbers),

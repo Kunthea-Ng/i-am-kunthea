@@ -7,11 +7,6 @@
 </head>
 <body>
     <?php
-        /*
-        TASK:
-        Exercise 5 - Count even and odd numbers
-        Given an array of numbers, count how many are even and how many are odd. Store them in two new arrays.
-        */
         $numbers = [3, 8, 15, 22, 7, 10, 41, 6];
         $even = [];
         $odd = [];

@@ -7,11 +7,6 @@
 </head>
 <body>
     <?php
-        /*
-        TASK:
-        Exercise 2 - Prices with tax
-        Given an array of 5 prices, add 10% tax to each price and print old price and new price.
-        */
         $prices = [10, 25.5, 40, 7.25, 100];
         foreach ($prices as $price) {
             $newPrice = $price * 1.10;

@@ -7,12 +7,6 @@
 </head>
 <body>
     <?php
-        /*
-        TASK:
-        Exercise 11 - Factorial and prime check
-        Create a function factorial($n) using a loop and a function isPrime($n) that returns true or false.
-        Test them with several numbers.
-        */
         function factorial($n) {
             $result = 1;
             for ($i = 2; $i <= $n; $i++) {

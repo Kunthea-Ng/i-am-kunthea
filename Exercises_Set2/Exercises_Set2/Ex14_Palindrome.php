@@ -7,12 +7,6 @@
 </head>
 <body>
     <?php
-        /*
-        TASK:
-        Exercise 14 - Palindrome
-        Create a function isPalindrome($text) that ignores case and spaces. Test it with several words
-        (e.g. "level", "Never odd or even", "hello").
-        */
         function isPalindrome($text) {
             $clean = strtolower(str_replace(" ", "", $text));
             return $clean === strrev($clean);

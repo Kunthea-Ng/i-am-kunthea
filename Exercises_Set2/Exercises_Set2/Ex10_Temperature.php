@@ -7,12 +7,6 @@
 </head>
 <body>
     <?php
-        /*
-        TASK:
-        Exercise 10 - Temperature converter
-        Create functions celsiusToFahrenheit($c) and fahrenheitToCelsius($f) that return a value.
-        Convert a list of temperatures and print a table.
-        */
         function celsiusToFahrenheit($c) {
             return ($c * 9 / 5) + 32;
         }

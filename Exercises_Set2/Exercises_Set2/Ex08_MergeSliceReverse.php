@@ -7,12 +7,6 @@
 </head>
 <body>
     <?php
-        /*
-        TASK:
-        Exercise 8 - Merge, slice and reverse
-        Merge two arrays with array_merge(), take the first 3 items with array_slice(), and reverse the result
-        with array_reverse().
-        */
         $boys  = ["Sokha", "Dara"];
         $girls = ["Maly", "Srey", "Bopha"];
         $all = array_merge($boys, $girls);

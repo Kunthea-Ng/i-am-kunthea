@@ -7,12 +7,6 @@
 </head>
 <body>
     <?php
-        /*
-        TASK:
-        Exercise 4 - Add and remove keys
-        Create a profile array. Add a new key "email", change "city", remove "age" with unset(),
-        and check keys with array_key_exists().
-        */
         $profile = ["name" => "Sokha", "age" => 22, "city" => "Kampot"];
         $profile["email"] = "sokha@example.com";
         $profile["city"] = "Phnom Penh";

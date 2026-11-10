@@ -7,12 +7,6 @@
 </head>
 <body>
     <?php
-        /*
-        TASK:
-        Exercise 7 - Nested arrays
-        Create 3 classes, each with a list of student names. Use a foreach inside a foreach to print every class
-        and its students, and show how many students each class has.
-        */
         $classes = [
             "Class A" => ["Sokha", "Dara", "Maly"],
             "Class B" => ["Vuthy", "Srey", "Piseth", "Kunthea"],

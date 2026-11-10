@@ -7,12 +7,6 @@
 </head>
 <body>
     <?php
-        /*
-        TASK:
-        Exercise 9 - Sorting
-        Sort numbers ascending (sort) and descending (rsort). Sort an associative array by value (asort)
-        and by key (ksort).
-        */
         $numbers = [42, 7, 19, 3, 88];
         sort($numbers);
         echo "Ascending: " . implode(", ", $numbers) . "<br>";

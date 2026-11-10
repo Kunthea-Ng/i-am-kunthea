@@ -7,12 +7,6 @@
 </head>
 <body>
     <?php
-        /*
-        TASK:
-        Exercise 1 - Days of the week
-        Store the 7 days in an array. Print each day with its position number using foreach and a counter.
-        Mark Saturday and Sunday as "Weekend".
-        */
         $days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
         $position = 1;
         foreach ($days as $day) {
